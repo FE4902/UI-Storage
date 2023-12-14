@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --shadow-block-shadow-color: rgba(61, 72, 82, 0.749);
+    }
+
+    :not(:active):focus {
+        box-shadow: 0 0 0 0.075rem #fff, 0 0 0 0.25rem #fe4902;
+        outline: none;
+    }
+
+    body {
+        font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui,
+            Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo",
+            "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
+            "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    }
+
+    ul,
+    ol,
+    li {
+        list-style-type: none;
+    }
+}
+
+@layer components {
+    .writing-mode-tb {
+        writing-mode: tb;
+    }
+}
+
+@layer utilities {
+    .ui-logo {
+        @apply mr-auto;
+    }
+
+    .ui-logo:hover a {
+        @apply border-black;
+        transform: translate(-0.25em, -0.25em);
+        box-shadow: 0.25em 0.25em var(--shadow-block-shadow-color);
+    }
+
+    .ui-grid {
+        @apply grid flex-1;
+        grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+    }
+
+    .ui-card:hover a {
+        @apply border-t-black border-l-black;
+        transform: translate(-0.25em, -0.25em);
+        box-shadow: 0.25em 0.25em var(--shadow-block-shadow-color);
+    }
+}
