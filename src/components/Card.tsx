@@ -5,7 +5,7 @@ type CardProps = {
     href: string;
     img?: string;
     title: string;
-    techList: string[];
+    techList: string;
     desc: string;
 };
 
@@ -23,7 +23,10 @@ const Card = (props: CardProps) => {
                 </figure>
                 <h4 className="text-xl">{title}</h4>
                 <ul className="flex gap-2">
-                    {techList.map((v, i) => {
+                    <li className="px-2 py-1 leading-none bg-slate-100">
+                        {techList}
+                    </li>
+                    {/* {techList.map((v, i) => {
                         return (
                             <li
                                 key={i}
@@ -32,7 +35,7 @@ const Card = (props: CardProps) => {
                                 {v}
                             </li>
                         );
-                    })}
+                    })} */}
                 </ul>
                 <p>{desc}</p>
             </a>
