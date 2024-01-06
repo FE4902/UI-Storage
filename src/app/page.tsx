@@ -15,54 +15,7 @@ export default function Home() {
                             Recent Components
                         </h3>
                         <ul className="ui-grid">
-                            <Card
-                                href="/"
-                                title="asd"
-                                desc="sdas"
-                                techList={["asd"]}
-                            ></Card>
-                            <Card
-                                href="/"
-                                title="asd"
-                                desc="sdas"
-                                techList={["asd"]}
-                            ></Card>
-                            <Card
-                                href="/"
-                                title="asd"
-                                desc="sdas"
-                                techList={["asd"]}
-                            ></Card>
-                            <Card
-                                href="/"
-                                title="asd"
-                                desc="sdas"
-                                techList={["asd"]}
-                            ></Card>
-                            <Card
-                                href="/"
-                                title="asd"
-                                desc="sdas"
-                                techList={["asd"]}
-                            ></Card>
-                            <Card
-                                href="/"
-                                title="asd"
-                                desc="sdas"
-                                techList={["asd"]}
-                            ></Card>
-                            <Card
-                                href="/"
-                                title="asd"
-                                desc="sdas"
-                                techList={["asd"]}
-                            ></Card>
-                            <Card
-                                href="/"
-                                title="asd"
-                                desc="sdas"
-                                techList={["asd"]}
-                            ></Card>
+                            <Card></Card>
                         </ul>
                     </div>
                     <div className="flex justify-end px-4 py-6">
