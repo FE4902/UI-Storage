@@ -5,6 +5,12 @@
             "title": "Accordion",
             "techList": "JavaScript",
             "desc": "Accordion"
+        },
+        {
+            "href": "https://codepen.io/fe4902/pen/YzgwxWw",
+            "title": "Tab",
+            "techList": "JavaScript",
+            "desc": "Tab"
         }
     ]
 }
