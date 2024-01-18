@@ -17,6 +17,12 @@
             "title": "Dropdown",
             "techList": "JavaScript",
             "desc": "Dropdown"
+        },
+        {
+            "href": "https://codepen.io/fe4902/pen/NWJxeLM",
+            "title": "Counter",
+            "techList": "JavaScript",
+            "desc": "Counter"
         }
     ]
 }
