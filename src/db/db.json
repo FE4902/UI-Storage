@@ -35,6 +35,12 @@
             "title": "Slider",
             "techList": "JavaScript",
             "desc": "Slider"
+        },
+        {
+            "href": "https://codepen.io/fe4902/pen/OJqmxGM",
+            "title": "Toast",
+            "techList": "JavaScript",
+            "desc": "Toast"
         }
     ]
 }
